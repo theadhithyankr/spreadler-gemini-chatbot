@@ -1,102 +1,38 @@
-# 🤖 Spreadler – Kotlin Chatbot Powered by Gemini AI
+# Spreadler Gemini Chatbot
 
-**Spreadler** is an intelligent Kotlin-based chatbot that uses **Google’s Gemini AI API** to deliver smart, conversational responses. Designed with modularity and performance in mind, it's ideal for integrating LLM-driven features into Kotlin applications.
+Kotlin Gemini chatbot with a terminal interface for modular AI-driven conversations.
 
----
+## Key Features
+- Kotlin Gemini chatbot with a terminal interface for modular AI-driven conversations
+- AI/service layer is separated into dedicated source files so prompts, model calls, and UI actions are easier to inspect.
+- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
+- Existing media assets are referenced only where they are already present in the repository.
 
-## ✨ Features
+## Tech Stack
+- Gradle
+- Kotlin
 
-- 🔮 Uses **Gemini AI (Generative Model from Google)** for conversation  
-- 🧠 Context-aware, LLM-powered responses  
-- 💬 Terminal-based chat interface (CLI)  
-- 🧱 Fully modular Kotlin architecture  
-- ⚡ Lightweight, fast, and extensible
+## Project Structure
+- app/src/main - Android app source, manifest, and platform code.
 
----
-
-## 🛠 Tech Stack
-
-- **Language:** Kotlin  
-- **Build Tool:** Gradle (Kotlin DSL)  
-- **AI Integration:** Gemini API (Google AI)  
-- **IDE:** IntelliJ / Android Studio
-
----
-
-## 🔐 Setup: Gemini API
-
-1. [Get access to Gemini API](https://ai.google.dev)  
-2. Create an API Key and store it securely  
-3. Add the following to a `.env` file or directly in the code:
-
-```env
-GEMINI_API_KEY=your_google_gemini_key_here
-````
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
+## Setup and Run
 ```bash
-git clone https://github.com/theadhithyankr/spreadler.git
-cd spreadler
+git clone https://github.com/theadhithyankr/spreadler-gemini-chatbot.git
+cd spreadler-gemini-chatbot
+.\\gradlew.bat build
 ```
 
-### 2. Build the project
+## Screenshots and Media
+- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher.webp
+- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher.webp
+- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
 
-```bash
-./gradlew build
-```
+## What This Project Demonstrates
+- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-For Windows:
-
-```bash
-gradlew.bat build
-```
-
-### 3. Run the chatbot
-
-```bash
-./gradlew run
-```
-
-Chat away in your terminal using Gemini-powered intelligence.
-
----
-
-## 📁 Project Structure
-
-```
-spreadler/
-├── app/                  # Main Kotlin source files
-│   ├── ChatBot.kt        # Core logic using Gemini
-│   └── ...
-├── gradle/               # Gradle wrapper
-├── build.gradle.kts      # Build config (Kotlin DSL)
-└── settings.gradle.kts
-```
-
----
-
-## 🧠 Future Upgrades (Planned)
-
-* GUI using Jetpack Compose Desktop
-* Android app extension
-* Chat history and memory
-* Voice input/output (Speech-to-Text + TTS)
-
----
-
-## 📄 License
-
-MIT License — free to use, extend, or remix.
-
----
-
-## 👨‍💻 Author
-
-Created by [@theadithyankr](https://github.com/theadhithyankr)
-Powered by Google AI. Built for tomorrow’s conversations.
-
+## Repository
+- GitHub: https://github.com/theadhithyankr/spreadler-gemini-chatbot
