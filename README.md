@@ -1,38 +1,59 @@
+<div align="center">
+
 # Spreadler Gemini Chatbot
 
-Kotlin Gemini chatbot with a terminal interface for modular AI-driven conversations.
+Gemini-powered chatbot project for conversational assistance.
+
+![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?logo=googlegemini&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/spreadler-gemini-chatbot)
+
+</div>
+
+## Overview
+
+Spreadler Gemini Chatbot is a chatbot project in the TheAdhithyanKR/spreadler-gemini-chatbot repository. Kotlin Gemini chatbot with a terminal interface for modular AI-driven conversations.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The commands below are based on the build files present in the repository.
 
 ## Key Features
-- Kotlin Gemini chatbot with a terminal interface for modular AI-driven conversations
-- AI/service layer is separated into dedicated source files so prompts, model calls, and UI actions are easier to inspect.
-- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
-- Existing media assets are referenced only where they are already present in the repository.
+
+- Conversational UI or service flow for Gemini-backed responses
+- Prompt-driven assistant behavior organized in project code
+- Local setup suitable for testing chatbot iterations
+- Practical example of integrating generative AI into an app
 
 ## Tech Stack
+
+- Google Gemini
 - Gradle
 - Kotlin
 
 ## Project Structure
-- app/src/main - Android app source, manifest, and platform code.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/spreadler-gemini-chatbot.git
-cd spreadler-gemini-chatbot
-.\\gradlew.bat build
-```
+`	ext
+.
+|-- app/proguard-rules.pro
+|-- gradle.properties
+|-- gradle/libs.versions.toml
+|-- gradlew
+|-- gradlew.bat
+|-- README.md
+`
 
-## Screenshots and Media
-- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
-- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
-- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+## Setup
+
+`ash
+.\gradlew assembleDebug
+`
 
 ## What This Project Demonstrates
-- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/spreadler-gemini-chatbot
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around chatbot
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/spreadler-gemini-chatbot](https://github.com/theadhithyankr/spreadler-gemini-chatbot)
