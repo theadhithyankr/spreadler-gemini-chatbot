@@ -31,7 +31,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- app/proguard-rules.pro
 |-- gradle.properties
@@ -39,13 +39,13 @@ The README was written from the repository contents, including its manifest file
 |-- gradlew
 |-- gradlew.bat
 |-- README.md
-`
+```
 
 ## Setup
 
-`ash
+```bash
 .\gradlew assembleDebug
-`
+```
 
 ## What This Project Demonstrates
 
